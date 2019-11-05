@@ -13,18 +13,18 @@ O código da tecla O é 79. (veja <a href="http://cherrytree.at/misc/vk.htm">aqu
             o = 1001111 --> binário de 79, sendo 79 a keycode da tecla "o"
             g = 1000111 --> binário de 71, sendo 71 a keycode da tecla "g"
               ____________
-                0001000 --> Resultado do Xor / caracter criptografado
-
-OBS: O mesmo se repete para o caracter i ou demais caracteres.
+            BS= 0001000 --> Resultado do Xor / caracter criptografado
+*BS significa Black Space ou barra de espaço, é o caracter número 8 (ou em binario 0001000)*
+OBS: A mesma operação se repete para o caracter i ou demais caracteres.
 
 Para descriptografar é so realizar a mesma operação novamente, vejamos...
 
-Criptografada = 0001000 --> Caracter criptografado pelo XOR
+            X = 0001000 --> Caracter criptografado pelo XOR
             g = 1000111 --> binário da nossa keycode (71 / caracter g)
             ______________
-                1001111 --> Resultado do Xor / caracter descriptografado
+            BS= 1001111 --> Resultado do Xor / caracter descriptografado
 
-OBS: O mesmo se repete para o caracter i ou demais caracteres.
+OBS: A mesma operação se repete para o caracter i ou demais caracteres.
 
 Se você está se perguntando como isso pode ser útil, vou lhe dar um exemplo prático.
 
