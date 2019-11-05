@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-void encryptionFunc(std::string& text)
+void crypt_decrypt(std::string& text)
 {
 	const int KeyXOR = 100; //Mude a tecla || Change the key
 	int StrLen = (text.length());
@@ -18,8 +18,8 @@ int main()
 		std::string msg;
 		std::cout << "Your String:" << std::endl;
 		std::cin >> msg;
-		encryptionFunc(msg);
-		std::cout << "Encrypted: " << msg << std::endl;
+		crypt_decrypt(msg);
+		std::cout << "Encrypted / Decrypted: " << msg << std::endl;
 	}
 	return 0;
 }
