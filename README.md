@@ -20,10 +20,10 @@ OBS: A mesma operação se repete para o caracter i ou demais caracteres.
 
 Para descriptografar é so realizar a mesma operação novamente, vejamos...
 
-            X = 0001000 --> Caracter criptografado pelo XOR
+            BS= 0001000 --> Caracter criptografado pelo XOR / Barra de espaço
             g = 1000111 --> binário da nossa keycode (71 / caracter g)
             ______________
-            BS= 1001111 --> Resultado do Xor / caracter descriptografado
+            o = 1001111 --> Resultado do Xor / caracter descriptografado (caracter original)
 
 OBS: A mesma operação se repete para o caracter i ou demais caracteres.
 
