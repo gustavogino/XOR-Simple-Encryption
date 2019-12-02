@@ -14,7 +14,7 @@ O código da tecla O é 79. (veja <a href="http://cherrytree.at/misc/vk.htm">aqu
             g = 1000111 --> binário de 71, sendo 71 a keycode da tecla "g"
               ____________
             BS= 0001000 --> Resultado do Xor / caracter criptografado
-*BS significa Black Space ou barra de espaço, é o caracter número 8 (ou em binario 0001000)*
+*BS significa backspace ou barra de espaço, é o caracter número 8 (ou em binario 0001000)*
 
 OBS: A mesma operação se repete para o caracter i ou demais caracteres.
 
